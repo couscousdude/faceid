@@ -14,7 +14,7 @@ place a folder with the name of the face you would like to identify into it, and
 
 - For example, inside `datasets` I could place a folder called `rick_astley` and place images of Rick into that folder
 
--You also need a PICKLE file which we will store the encoded images. You can make your own or 
+- You also need a PICKLE file which we will store the encoded images. You can make your own or use the provided encodings.pickle
 
 - To run the program, simply cd into the folder containing the encoder program and run `python encode_faces.py --dataset [your dataset file path here] --encodings [your file name here]`
 Place the file path to the folder in which you stored all your to-be encoded images in place of [your dataset file path here] and place the file path of the PICKLE file you want the dumps to go to in place of [your file name here]
