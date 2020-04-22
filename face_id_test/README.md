@@ -9,7 +9,7 @@ This guide assumes you have the necessary packages installed(if not, follow the 
 
 - In order to encode your images for openCV, they must be in dlib format. In order to do this, you can use the *encode_face.py* file. 
 
-- To load images for the encoder, make a folder which will contain all the images(you can use the provided `datasets` folder or make your own)
+- To load images for the encoder, make a folder which will contain all the images(you can use the provided `dataset` folder or make your own)
 place a folder with the name of the face you would like to identify into it, and place the images into their corresponding folders
 
 - For example, inside `datasets` I could place a folder called `rick_astley` and place images of Rick into that folder
