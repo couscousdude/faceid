@@ -1,4 +1,4 @@
-## faceid
+# faceid
 
 A small collection of projects to do with openCV's facial recognition
 
