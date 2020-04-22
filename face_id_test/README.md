@@ -28,8 +28,11 @@ Place the file path to the folder in which you stored all your to-be encoded ima
 - cd into the folder where recognize_faces_image.py is stored
 
 - To run the detection program, run `python recognize_faces_image.py --detection-method [detection method] --image [file path] --encodings [encodings location]`
+
 -- Replace [detection method] with either `hog` for speed or `cnn` for accuracy
+
 -- Replace [file path] with the file path of the image you would like to use. This would be input_images/[image name] if you used the provided folder
+
 -- Replace [encodings location] with the PICKLE file where you stored your encodings. This would be encodings.pickle if you used the provided pickle file
 
 - And thats it! you're done, after the code detects (or fails to) a face, it will open a new window containing the image output with the faces labelled 
