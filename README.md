@@ -7,6 +7,7 @@ A small collection of projects to do with openCV's facial recognition
 - Requires Python 3.8+
 - Requires **openCV**
 - Requires **CMake** in order to build **dlib** and **facial_recognition** module
+- Requires **dlib**
 - Requires **imutils**
 - Requires **facial_recognition** module
 
